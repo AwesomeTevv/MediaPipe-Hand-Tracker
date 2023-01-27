@@ -28,7 +28,7 @@ while True:
                 cx, cy = int(lm.x * w), int(lm.y * h)
                 
                 if id == 4 or id == 8 or id == 12 or id == 16 or id == 20:
-                    cv2.circle(img, (cx, cy), 10, (255, 0, 255), cv2.FILLED)
+                    cv2.circle(img, (cx, cy), 10, (255, 255, 0), cv2.FILLED)
                 
             mpDraw.draw_landmarks(img, handLms, mpHands.HAND_CONNECTIONS)
     
